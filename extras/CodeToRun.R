@@ -3,7 +3,7 @@ library(CovCoagFullGradientBoostingPrediction)
 # USER INPUTS
 #=======================
 # The folder where the study intermediate and result files will be written:
-outputFolder <- "C:/CovCoagFullGradientBoostingPredictionResults"
+outputFolder <- "./CovCoagFullGradientBoostingPredictionResults"
 
 # Details for connecting to the server:
 dbms <- "you dbms"

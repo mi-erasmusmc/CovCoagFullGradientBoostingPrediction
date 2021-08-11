@@ -70,6 +70,7 @@ getAgeCovariateData <- function(connection,
   covariates$covariateId <- covariateSettings$covariateId
   
   covariates <- covariates[,c('rowId','covariateId', 'covariateValue')]
+  covariates <- dplyr::filter(covariates, covariateValue == 1)
 
   # Construct covariate reference:
   covariateRef <- data.frame(covariateId = covariateSettings$covariateId,
@@ -84,8 +85,8 @@ getAgeCovariateData <- function(connection,
                             domainId = "age covariate",
                             startDay = 0,
                             endDay = 0,
-                            isBinary = "N",
-                            missingMeansZero = "Y")
+                            isBinary = "Y",
+                            missingMeansZero = NA)
   
   metaData <- list(sql = sql, call = match.call())
   result <- Andromeda::andromeda(covariates = covariates,
