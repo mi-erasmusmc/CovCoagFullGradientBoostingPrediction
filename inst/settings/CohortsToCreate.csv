@@ -1,0 +1,11 @@
+cohortId,atlasId,name
+22932,22932,COVID19_PCR_positive_test_or_diagnosis
+22956,22956,Unvaccinated_COVID19_PCR_positive_test_or_diagnosis
+22601,22601,MI
+22600,22600,IS
+22599,22599,MI_and_IS
+22595,22595,PE
+22596,22596,DVT_narrow
+22602,22602,VTE_narrow
+22933,22933,DTH
+22954,22954,STR
