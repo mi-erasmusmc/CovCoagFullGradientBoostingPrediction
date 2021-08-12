@@ -1,7 +1,7 @@
 Package: CovCoagFullGradientBoostingPrediction
 Type: Package
 Title: Coagulopathy prediction in SARS-Cov-2
-Version: 1.2.0
+Version: 1.3.0
 Author: Henrik John
 Maintainer: Henrik John <l.john@erasmusmc.nl>
 Description: Coagulopathy prediction in SARS-Cov-2 using gradient boosting machine and a full set of standard predictors including sex and age.

@@ -1,6 +1,7 @@
 cohortId,atlasId,name
-22932,22932,COVID19_PCR_positive_test_or_diagnosis
 22956,22956,Unvaccinated_COVID19_PCR_positive_test_or_diagnosis
+22957,22957,Unvaccinated_COVID19_PCR_positive_test_or_diagnosis__age_65_and_above
+22958,22958,Unvaccinated_COVID19_PCR_positive_test_or_diagnosis__age_below_65
 22601,22601,MI
 22600,22600,IS
 22599,22599,MI_and_IS
